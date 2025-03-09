@@ -1,0 +1,148 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    }
+    
+    body {
+    font-family:verdana;
+    }
+    
+    header {
+    background:#39a6b2;
+    padding:0.5cm 0.8cm;
+    color:yellow;
+    }
+    
+    header h1 {
+    display:inline-block;    
+    }
+    header nav {
+    float:right;
+    
+    }
+
+    header h1 a {
+        color:yellow;
+        text-decoration:none;
+    } 
+
+    header nav ul li {
+    display:inline-block;
+    }
+    
+    header nav ul li a {
+    text-decoration:none;
+    color:yellow;
+    padding:0.20cm 0.35cm;
+    border:0.20cm solid snow;
+    border-radius:0.20cm;
+    }
+    
+    header nav ul li a:hover {
+    color:red;
+    background:white;
+    }
+
+
+    
+ #about-me {
+    text-align: center;
+    background:lightcyan;
+     }
+ #about-me h1 {
+    font-size:0.9cm;
+    color:blue;
+    display:block;
+    padding:0.4cm 0.6cm;
+    margin:0.4cm 0.7cm;
+    border-bottom:0.06cm solid #39a6b2; 
+    }
+
+    #about-me p {
+        padding:0.4cm 0.8cm;
+    width:80%;
+    margin:0 auto;
+    line-height:1.4;
+         }  
+
+
+    #about-me p {
+        padding:0.4cm 0.8cm;
+        
+         }   
+
+#img {
+width:5cm;
+height:5cm;
+margin-bottom:0.8cm;
+}
+
+#my-project {
+    text-align:center;
+    background-color:blanchedalmond;
+    }
+
+    #my-project h1 {
+    font-size: 0.9cm;
+        }
+
+#box1,#box2 {
+    border:0.04cm solid blue;
+    width:6cm;
+    height:6cm;
+    padding:1cm;
+    margin: 1cm;
+    display:inline-block;
+    }
+
+  #box1 h4, p, #box2 h4,p {
+    color:darkgreen;
+    margin-bottom:0.4cm  
+  }  
+   
+  .contact {
+    text-align: center;
+  background: #DEB887;  
+      }
+     
+      .contact-form {
+        border:0.050cm solid black;
+        width:15cm;
+        height:10cm;
+        margin:0 auto;
+        background:yellow;
+        } 
+
+    
+.contact-form h1 {
+            color:#8A2BE2;
+            font-size:1cm;
+            padding:0.50cm 0.60cm;            
+                    }
+
+    .contact-form input {
+     display:block;
+    width:40%;
+    margin:0.20cm 4cm 0.30cm 4cm;
+    padding:0.20cm 0.35cm;
+    }
+    .contact-form button {
+        background:#0000FF;
+        color:white;
+        width:30%;
+        padding:0.15cm 0.20cm;
+    }
+    .form-input {
+    text-align:center;
+    }
+
+    .footer {
+        background-color:#00FA9A;
+        text-align: center;
+        width:100%;
+        padding:0.40cm;
+    }
+section {
+    padding:2cm;
+}

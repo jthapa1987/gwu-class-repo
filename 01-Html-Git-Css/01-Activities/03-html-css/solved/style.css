@@ -1,0 +1,51 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+    background-color:blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    
+    header {
+        background: black;
+        color:white;
+        text-align: center;
+        padding:0.5cm;
+    }
+    
+    .container {
+    padding:3cm;
+    width:100%;
+  
+        }
+    
+    
+    #main-bio,#contact-info,#bio-image {
+           
+        float: left;
+        }
+    #main-bio h2 {
+    margin-bottom: 0.32cm;
+    }
+    #main-bio {
+        width: 70%;
+      }
+      
+      #contact-info {
+        width: 30%;
+      }
+        #main-bio img {
+    width:5cm;
+    height: 5cm;
+    margin-right: 0.23cm;
+        }
+    
+      
+        a {
+            color:red;
+        }
